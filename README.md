@@ -1,59 +1,62 @@
-# Digital Design LABs
+# Digital Design LABs 🧠⚙️
 
-Welcome to **Digital Design LABs**, a personal collection of Verilog and SystemVerilog modules crafted throughout my digital design learning journey.  
-This repository showcases a wide range of designs — from basic logic building blocks to more advanced modules, each crafted, tested, and sometimes even FPGA-synthesized.
+A personal collection of digital design modules and experiments written in Verilog/SystemVerilog. This repository captures my journey through learning and practicing digital logic design, ranging from fundamental components to more advanced functional blocks.
 
----
+## 📁 Directory Structure
 
-## 📂 Structure
+Each folder below contains a Verilog module along with its corresponding testbench (if available):
 
-The repository is organized by module complexity:
-- `basic/` – Simple modules like muxes, decoders, adders, counters, etc.
-- `intermediate/` – FSMs, shift registers, ALUs, and small memory systems.
-- `advanced/` – Complete systems like SPI interfaces, APB protocols, FIFO with assertions, and UVM environments.
+### 🔢 N-bit Arithmetic & Logic Units
+- **N-bit_ALU/**  
+  A parameterized ALU supporting multiple operations on variable-width operands.
 
----
+- **N-bit_Adder/**  
+  A scalable N-bit adder module with a matching testbench.
 
-## 🔧 Modules Included
+- **ALU_1bit.v**  
+  A basic 1-bit arithmetic logic unit.
 
-Here are some of the modules implemented and tested in this repository:
+- **Adder_4bit.v**  
+  A simple 4-bit ripple-carry adder.
 
-### 🟢 Basic Modules
-- 2:1 and 4:1 Multiplexers  
-- 
+### 🔁 Code Converters
+- **Encoder_4bit/**  
+  A 4-to-2 encoder design and its testbench.
 
-### 🟡 Intermediate Modules
-- Finite State Machines (FSMs)  
-- 
+- **Demux_1x4/**  
+  1-to-4 demultiplexer with testbench.
 
-### 🔴 Advanced Modules
-- SPI Slave Interface with RAM  
--
+- **Decoder_2x4.v**  
+  A standard 2-to-4 decoder module.
 
----
+### ⚙️ Display Control
+- **ALU_7Seg_display/**  
+  Combines a N-bit ALU with 7-segment display output logic.
 
-## 💡 Purpose
+### 🧠 Code Generators
+- **Generate_GRAYandONEHOT/**  
+  Module to convert binary input into Gray code or One-Hot representation.
 
-This repo serves as:
-- A portfolio of my work in digital design  
-- A study log of concepts I’ve mastered  
-- A reference point for future projects and collaborations
+- **Even_parity_gen.v**  
+  Simple even parity bit generator for basic error checking.
 
----
+- **Prime_check.v**  
+  A module to check if a 4-bit input is a prime number.
 
-## 🛠️ Tools Used
-
-- Verilog / SystemVerilog  
-- QuestaSim & ModelSim for simulation  
-- Xilinx Vivado for FPGA flow  
-- GTKWave for waveform analysis
-
----
-
-## 🤝 Contributions
-
-Feel free to explore, learn, or suggest improvements. While the designs here are mainly written and maintained by me, I’m open to feedback and collaboration.
+### ⚖️ Comparators
+- **Comparator.v**  
+  A digital comparator to evaluate magnitude relations between two binary inputs.
 
 ---
 
-> “Design, Simulate, Debug, Repeat” — the loop that builds great engineers 🚀
+## 🧪 Simulation
+
+All testbenches are written in Verilog/SystemVerilog and compatible with simulators like **ModelSim**, **QuestaSim**, or **Vivado Simulator**.
+
+---
+
+## 🚧 More modules coming soon...
+
+This is a growing project! I continuously add new building blocks and designs as I learn and explore more of the digital design world.
+
+Feel free to explore, fork, and use any module for learning or project integration!
