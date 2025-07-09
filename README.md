@@ -9,7 +9,7 @@ This repository collects all the SystemVerilog and Verilog modules I’ve develo
 Each folder contains source files, testbenches, and simulation or synthesis artifacts. Below is the categorized map of the repo:
 
 ### 🧠 ALU & Related Modules
-- [ALSU](./ALSU)
+- [ALSU](ALSU)
 - [ALU_7seg_display](./ALU_7seg_display)
 - [N-bit ALU](./N-bit%20ALU)
 - [N-bit Adder](./N-bit%20Adder)
