@@ -1,62 +1,77 @@
-# Digital Design LABs 🧠⚙️
+# 🔧 Digital Design LABs
 
-A personal collection of digital design modules and experiments written in Verilog/SystemVerilog. This repository captures my journey through learning and practicing digital logic design, ranging from fundamental components to more advanced functional blocks.
-
-## 📁 Directory Structure
-
-Each folder below contains a Verilog module along with its corresponding testbench (if available):
-
-### 🔢 N-bit Arithmetic & Logic Units
-- **N-bit_ALU/**  
-  A parameterized ALU supporting multiple operations on variable-width operands.
-
-- **N-bit_Adder/**  
-  A scalable N-bit adder module with a matching testbench.
-
-- **ALU_1bit.v**  
-  A basic 1-bit arithmetic logic unit.
-
-- **Adder_4bit.v**  
-  A simple 4-bit ripple-carry adder.
-
-### 🔁 Code Converters
-- **Encoder_4bit/**  
-  A 4-to-2 encoder design and its testbench.
-
-- **Demux_1x4/**  
-  1-to-4 demultiplexer with testbench.
-
-- **Decoder_2x4.v**  
-  A standard 2-to-4 decoder module.
-
-### ⚙️ Display Control
-- **ALU_7Seg_display/**  
-  Combines a N-bit ALU with 7-segment display output logic.
-
-### 🧠 Code Generators
-- **Generate_GRAYandONEHOT/**  
-  Module to convert binary input into Gray code or One-Hot representation.
-
-- **Even_parity_gen.v**  
-  Simple even parity bit generator for basic error checking.
-
-- **Prime_check.v**  
-  A module to check if a 4-bit input is a prime number.
-
-### ⚖️ Comparators
-- **Comparator.v**  
-  A digital comparator to evaluate magnitude relations between two binary inputs.
+This repository collects all the SystemVerilog and Verilog modules I’ve developed during my digital design journey, covering both basic and advanced projects. These modules are organized for learning, reuse, and future enhancements, especially in areas like FPGA implementation and digital system simulation.
 
 ---
 
-## 🧪 Simulation
+## 📂 Directory Structure
 
-All testbenches are written in Verilog/SystemVerilog and compatible with simulators like **ModelSim**, **QuestaSim**, or **Vivado Simulator**.
+Each folder contains source files, testbenches, and simulation or synthesis artifacts. Below is the categorized map of the repo:
+
+### 🧠 ALU & Related Modules
+- [ALSU](./ALSU)
+- [ALU_7seg_display](./ALU_7seg_display)
+- [N-bit ALU](./N-bit%20ALU)
+- [N-bit Adder](./N-bit%20Adder)
+
+### 🔁 Flip-Flops and Latches
+- [Asynchronous D FlipFlop](./Asynchronous%20D%20FlipFlop)
+- [Asynchronous T FlipFlop](./Asynchronous%20T%20FlipFlop)
+- [D Latch with Active Low Clear](./D%20Latch%20with%20active%20low%20Clear)
+
+### ⏱️ Counters & Clocks
+- [Counter_4Bit_2Different_Ways](./Counter_4Bit_2Different%20Ways)
+- [Generate_CLKS_UsingCounter](./Generate_CLKS_UsingCounter)
+
+### 🎛️ Control Modules
+- [Car_Controller_FSM](./Car_Controller_FSM)
+- [SLE](./SLE)
+- [Vending machine](./Vending%20machine)
+
+### 🧩 Encoders, Decoders & Demux
+- [Encoder_4bit](./Encoder_4bit)
+- [Decoder_2x4](./Decoder_2x4)
+- [Demux_1x4](./Demux_1x4)
+
+### 🧮 Math & Logic Blocks
+- [Parameterized Adder](./Parameterized%20Adder)
+- [Parameterized Shift Register](./Parameterized%20Shift%20register)
+- [ALU_1bit](./ALU_1bit.v)
+- [Adder_4bit](./Adder_4bit.v)
+- [Comparator](./Comparator.v)
+- [Even_parity_gen](./Even_parity_gen.v)
+- [Prime_check](./Prime_check.v)
+
+### 📦 Memory & FIFO
+- [FIFO](./FIFO)
+- [Ram](./Ram)
+
+### ⚙️ Code Generators
+- [Generate_GRAYandONEHOT](./Generate_GRAYandONEHOT)
 
 ---
 
-## 🚧 More modules coming soon...
+## 📈 Development Tools
 
-This is a growing project! I continuously add new building blocks and designs as I learn and explore more of the digital design world.
+All modules were developed using:
+- **QuestaSim / ModelSim** – Simulation and waveform analysis.
+- **Vivado / Quartus** – For FPGA synthesis and implementation.
 
-Feel free to explore, fork, and use any module for learning or project integration!
+---
+
+## ✍️ How to Use
+1. Clone the repository.
+2. Navigate to any module folder.
+3. Compile and simulate using your preferred simulator.
+4. Run the testbench or edit to explore the behavior.
+
+---
+
+## 🚀 Future Plans
+- Add waveform images and timing diagrams.
+- Connect modules to AMBA-based protocols (e.g., APB/AXI).
+- Include FPGA implementation results and reports.
+
+---
+
+Enjoy exploring the designs — and feel free to contribute if you're also passionate about digital design!
