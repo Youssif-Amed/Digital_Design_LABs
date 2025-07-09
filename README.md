@@ -51,7 +51,6 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 ---
 
 ### 🟡 Intermediate Designs
-```markdown
 - [Counter_4Bit_2Different Ways](./Counter_4Bit_2Different%20Ways)
 - [ALU_7Seg_display](./ALU_7Seg_display)
 - [N-bit Adder](./N-bit%20Adder)
