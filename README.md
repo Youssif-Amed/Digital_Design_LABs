@@ -88,8 +88,7 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 
 ## 🛣 Roadmap
 
-- ✅ Design AMBA-based bus modules (APB, AXI)
-- ✅ Start using UVM methodology for verification
+- 🚧 Design AMBA-based bus modules (APB, AXI)
 - 🚧 Build peripheral libraries for protocol testing
 - 🚧 Full system-level verification environments
 
@@ -98,7 +97,7 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 ## 🙌 Let’s Connect
 
 Open to collaboration, discussion, or mentorship?  
-Connect with me on [LinkedIn](https://www.linkedin.com/in/youssif-amed/) or ⭐ star this repo to support the journey!
+Connect with me on [LinkedIn](https://www.linkedin.com/in/youssif-ahmed-72b883248/) or ⭐ star this repo to support the journey!
 
 ---
 
