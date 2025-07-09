@@ -10,18 +10,18 @@ Each folder contains source files, testbenches, and simulation or synthesis arti
 
 ### 🧠 ALU & Related Modules
 - [ALSU](ALSU)
-- [ALU_7seg_display](./ALU_7seg_display)
-- [N-bit ALU](./N-bit%20ALU)
-- [N-bit Adder](./N-bit%20Adder)
+- [ALU_7seg_display](ALU_7Seg_display)
+- [N-bit ALU](N-bit%20ALU)
+- [N-bit Adder](N-bit%20Adder)
 
 ### 🔁 Flip-Flops and Latches
-- [Asynchronous D FlipFlop](./Asynchronous%20D%20FlipFlop)
-- [Asynchronous T FlipFlop](./Asynchronous%20T%20FlipFlop)
-- [D Latch with Active Low Clear](./D%20Latch%20with%20active%20low%20Clear)
+- [Asynchronous D FlipFlop](Asynchronous%20D%20FlipFlop)
+- [Asynchronous T FlipFlop](Asynchronous%20T%20FlipFlop)
+- [D Latch with Active Low Clear](D%20Latch%20with%20active%20low%20Clear)
 
 ### ⏱️ Counters & Clocks
-- [Counter_4Bit_2Different_Ways](./Counter_4Bit_2Different%20Ways)
-- [Generate_CLKS_UsingCounter](./Generate_CLKS_UsingCounter)
+- [Counter_4Bit_2Different_Ways](Counter_4Bit_2Different%20Ways)
+- [Generate_CLKS_UsingCounter](Generate_CLKS_UsingCounter)
 
 ### 🎛️ Control Modules
 - [Car_Controller_FSM](./Car_Controller_FSM)
