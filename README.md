@@ -73,7 +73,6 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 - [single port synchronousWriteRead_Pipelining](./single%20port%20synchronousWriteRead_Pipelining)
 - [SLE](./SLE)
 - [Parameterized Shift register](./Parameterized%20Shift%20register)
-```
 
 ---
 
