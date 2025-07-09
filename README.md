@@ -24,30 +24,30 @@ Each folder contains source files, testbenches, and simulation or synthesis arti
 - [Generate_CLKS_UsingCounter](Generate_CLKS_UsingCounter)
 
 ### 🎛️ Control Modules
-- [Car_Controller_FSM](./Car_Controller_FSM)
-- [SLE](./SLE)
-- [Vending machine](./Vending%20machine)
+- [Car_Controller_FSM](Car_Controller_FSM)
+- [SLE](SLE)
+- [Vending machine](Vending%20machine)
 
 ### 🧩 Encoders, Decoders & Demux
-- [Encoder_4bit](./Encoder_4bit)
-- [Decoder_2x4](./Decoder_2x4)
-- [Demux_1x4](./Demux_1x4)
+- [Encoder_4bit](Encoder_4bit)
+- [Decoder_2x4](Decoder_2x4)
+- [Demux_1x4](Demux_1x4)
 
 ### 🧮 Math & Logic Blocks
-- [Parameterized Adder](./Parameterized%20Adder)
-- [Parameterized Shift Register](./Parameterized%20Shift%20register)
-- [ALU_1bit](./ALU_1bit.v)
-- [Adder_4bit](./Adder_4bit.v)
-- [Comparator](./Comparator.v)
-- [Even_parity_gen](./Even_parity_gen.v)
-- [Prime_check](./Prime_check.v)
+- [Parameterized Adder](Parameterized%20Adder)
+- [Parameterized Shift Register](Parameterized%20Shift%20register)
+- [ALU_1bit](ALU_1bit.v)
+- [Adder_4bit](Adder_4bit.v)
+- [Comparator](Comparator.v)
+- [Even_parity_gen](Even_parity_gen.v)
+- [Prime_check](Prime_check.v)
 
 ### 📦 Memory & FIFO
-- [FIFO](./FIFO)
-- [Ram](./Ram)
+- [FIFO](FIFO)
+- [Ram](Ram)
 
 ### ⚙️ Code Generators
-- [Generate_GRAYandONEHOT](./Generate_GRAYandONEHOT)
+- [Generate_GRAYandONEHOT](Generate_GRAYandONEHOT)
 
 ---
 
