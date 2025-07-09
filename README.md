@@ -1,4 +1,4 @@
-# 🚀 Digital Design LABs by Youssif Amed
+# 🚀 Digital Design LABs by Youssif Ahmed
 
 Welcome to **Digital Design LABs** — a curated and evolving lab notebook showcasing my exploration of digital logic, modular hardware systems, and verification using Verilog/SystemVerilog.
 
@@ -31,7 +31,7 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 ## 📁 All Verilog Modules (Grouped by Difficulty)
 
 ### 🟢 Beginner-Friendly Modules
-```markdown
+``markdown
 - [ALU_1bit.v](./)
 - [Adder_4bit.v](./)
 - [Comparator.v](./)
