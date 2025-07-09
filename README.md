@@ -31,13 +31,12 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 ## 📁 All Verilog Modules (Grouped by Difficulty)
 
 ### 🟢 Beginner-Friendly Modules
-``markdown
-- [ALU_1bit.v](./)
-- [Adder_4bit.v](./)
-- [Comparator.v](./)
-- [Decoder_2x4.v](./)
-- [Even_parity_gen.v](./)
-- [Prime_check.v](./)
+- [ALU_1bit](./ALU_1bit.v)
+- [Adder_4bit](./Adder_4bit.v)
+- [Comparator](./Comparator.v)
+- [Decoder_2x4](./Decoder_2x4.v)
+- [Even_parity_gen](./Even_parity_gen.v)
+- [Prime_check](./Prime_check.v)
 - [Asynchronous D FlipFlop](./Asynchronous%20D%20FlipFlop)
 - [Asynchronous T FlipFlop](./Asynchronous%20T%20FlipFlop)
 - [D Latch with active low Clear](./D%20Latch%20with%20active%20low%20Clear)
@@ -46,7 +45,7 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 - [Generate_GRAYandONEHOT](./Generate_GRAYandONEHOT)
 - [Encoder_4bit](./Encoder_4bit)
 - [Demux_1x4](./Demux_1x4)
-```
+
 
 ---
 
@@ -63,12 +62,11 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 - [Car_Controller_FSM](./Car_Controller_FSM)
 - [Simple_DSP](./Simple_DSP)
 - [single port synchronousWriteRead_Pipelining](./single%20port%20synchronousWriteRead_Pipelining)
-```
+
 
 ---
 
 ### 🔴 Advanced Systems & IP-Level Designs
-```markdown
 - [N-bit ALU](./N-bit%20ALU)
 - [ALSU](./ALSU)
 - [Modified ALSU-IP catalog-7Seg](./Modified%20ALSU-IP%20catalog-7Seg)
