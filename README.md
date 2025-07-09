@@ -35,20 +35,20 @@ From the fundamentals to near-IP-ready designs, this repo is structured for clar
 
 ### 🟢 Beginner-Friendly Modules
 ```markdown
-- [ALU_1bit.v](./ALU_1bit.v)
-- [Adder_4bit.v](./Adder_4bit.v)
-- [Comparator.v](./Comparator.v)
-- [Decoder_2x4.v](./Decoder_2x4.v)
-- [Even_parity_gen.v](./Even_parity_gen.v)
-- [Prime_check.v](./Prime_check.v)
-- [D_FF_Asyn_rstn.v](./Asynchronous%20D%20FlipFlop/D_FF_Asyn_rstn.v)
-- [T_FF_Asyn_rstn.v](./Asynchronous%20T%20FlipFlop/T_FF_Asyn_rstn.v)
-- [D_latch_Active_clrn.v](./D%20Latch%20with%20active%20low%20Clear/D_latch_Active_clrn.v)
-- [Ripple_counter_4bit.v](./Ripple%20Counter%204Bit/Ripple_counter_4bit.v)
-- [Gray_counter.v](./Gray%20Counter/Gray_counter.v)
-- [Generate_gray_onehot.v](./Generate_GRAYandONEHOT/Generate_gray_onehot.v)
-- [Encoder_4bit.v](./Encoder_4bit/Encoder_4bit.v)
-- [DEMUX_1_to_4.v](./Demux_1x4/DEMUX_1_to_4.v)
+- [ALU_1bit](ALU_1bit)
+- [Adder_4bit.v](Adder_4bit.v)
+- [Comparator.v](Comparator.v)
+- [Decoder_2x4.v](Decoder_2x4.v)
+- [Even_parity_gen.v](Even_parity_gen.v)
+- [Prime_check.v](Prime_check.v)
+- [D_FF_Asyn_rstn.v](Asynchronous%20D%20FlipFlop/D_FF_Asyn_rstn.v)
+- [T_FF_Asyn_rstn.v](Asynchronous%20T%20FlipFlop/T_FF_Asyn_rstn.v)
+- [D_latch_Active_clrn.v](D%20Latch%20with%20active%20low%20Clear/D_latch_Active_clrn.v)
+- [Ripple_counter_4bit.v](Ripple%20Counter%204Bit/Ripple_counter_4bit.v)
+- [Gray_counter.v](Gray%20Counter/Gray_counter.v)
+- [Generate_gray_onehot.v](Generate_GRAYandONEHOT/Generate_gray_onehot.v)
+- [Encoder_4bit.v](Encoder_4bit/Encoder_4bit.v)
+- [DEMUX_1_to_4.v](Demux_1x4/DEMUX_1_to_4.v)
 ```
 
 ---
